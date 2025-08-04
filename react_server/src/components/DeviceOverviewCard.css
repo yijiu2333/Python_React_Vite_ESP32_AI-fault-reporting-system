@@ -1,0 +1,25 @@
+
+.two-column-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  max-height: 380px;
+}
+
+.two-column-container > div {
+  overflow-y: scroll;
+  word-break: break-all;
+  white-space: normal;
+  line-height: 1.6;
+  max-height: 380px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.two-column-container > div::-webkit-scrollbar {
+  display: none;
+}
+
+.two-column-container > div {
+  min-height: 300px;
+}
