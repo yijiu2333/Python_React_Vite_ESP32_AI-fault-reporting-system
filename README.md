@@ -1,0 +1,1 @@
+# Python_React_Vite_ESP32_AI-fault-reporting-system
